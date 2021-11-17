@@ -21,16 +21,19 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     padding: 100px 0;
     height: auto;
+    background-color: ;
 }
 .container_modifier{
-    width: 60%;
+    width: 100%;
 }
+
+
 
 .hero{
     width: 100%;
@@ -67,10 +70,10 @@ body{
 }
 
 .hero_main{
-    height: calc(100vh - 70px);
     display: flex;
     align-items: center;
     padding: 0;
+    background-color: black;
 }
 .mockup{
     object-fit: cover;
