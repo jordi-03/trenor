@@ -7,18 +7,21 @@ div.galeria{
   margin: 10px 20px;
   box-shadow: blue;
   float: left;
-  width: 350px;
+  width: 300px;
 }
 div.galeria img{
   width: 100%;
   height: auto;
 }
-div.galeria:hover{
-  border: 1px solid lightcoral;
-  
-}
+
 div.pie{
   text-align: center;
-  text-shadow: 2px 2px 5px purple;
-  padding: 10px;
+  padding: 5px;
+}
+.seccion-galeria{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
 }
