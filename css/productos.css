@@ -1,18 +1,24 @@
-
-.lightbox-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+h2{
+  color: black;
+  text-shadow: blue;
+  text-align: center;
+}
+div.galeria{
+  margin: 10px 20px;
+  box-shadow: blue;
+  float: left;
+  width: 350px;
+}
+div.galeria img{
+  width: 100%;
+  height: auto;
+}
+div.galeria:hover{
+  border: 1px solid lightcoral;
   
-  .lightbox-gallery div > img {
-    max-width: 100%;
-    display: block;
-  }
-  
-  .lightbox-gallery div {
-    margin: 10px;
-    flex-basis: 180px;
-  }
-  
+}
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px purple;
+  padding: 10px;
+}
