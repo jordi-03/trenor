@@ -29,7 +29,7 @@ header{
     position:absolute;
     background-color: rgba(0, 0, 0, 0.515);
     width: 100%;
-    height: 95%;
+    height: 100%;
     z-index: 1;
 }
 
@@ -65,4 +65,31 @@ header{
 
 .navbar{
     z-index: 3;
+}
+
+.sector{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8vh;
+    background-color: rgb(37, 35, 35);
+    margin-bottom: 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+.sector img{
+    width: 50%;
+    height: 20%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+}
+
+.sector a{
+    padding: 10px;
+    background-color: rgb(219, 0, 0);
+
 }
