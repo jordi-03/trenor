@@ -1,0 +1,26 @@
+
+
+.showcase{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-centro{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+    border: 5px solid rgb(95, 32, 243);
+    padding: 10vh;
+    width: 40%;
+}
+
+.t-centro p{
+    margin-bottom: 7px;
+}
+
+.t-centro input{
+    margin-top: 10px;
+}
