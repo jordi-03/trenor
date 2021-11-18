@@ -74,7 +74,7 @@ header{
     margin: 0 auto;
     text-align: center;
     padding: 8vh;
-    background-color: rgb(37, 35, 35);
+    background-color: rgb(49, 58, 58);
     margin-bottom: 100px;
     color: white;
     border-radius: 10px;
@@ -90,6 +90,14 @@ header{
 
 .sector a{
     padding: 10px;
-    background-color: rgb(219, 0, 0);
-
+    background-color: rgb(89, 0, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
 }
+
+.sector a:hover{
+    color: white;
+    text-decoration: none;
+}
+
