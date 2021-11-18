@@ -1,0 +1,18 @@
+
+.lightbox-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lightbox-gallery div > img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .lightbox-gallery div {
+    margin: 10px;
+    flex-basis: 180px;
+  }
+  
