@@ -72,7 +72,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0;
-    background-color: black;
+    background-color: rgb(87, 87, 87);
 }
 .mockup{
     object-fit: cover;
